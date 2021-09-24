@@ -3,9 +3,8 @@
 
 
 body {
-	background:rgb(34, 72, 59); 
+	background:#b0bbc6;
 	margin-right:4rem;
-	margin-left:1rem;
 }
 
 .never {
@@ -13,26 +12,33 @@ body {
 	box-shadow: 12px 12px 27px 12px rgba(0, 0,0, 0.56); 
 }
 
-.home {
-	background:rgba(20,20,20,0.6);
+.top {
+	border-radius:5px;
+	width:95%;
+	background:url("../images/gaming.jpg");
+	margin-top:0rem;
+	height:200px;
+	padding:50px;
+	margin-left:1rem;
+}
+
+.home{
 	border-radius: 5px;
 	margin-top:40px;
 	height:70px;
-	text-align: center;
 	color:white;
-	padding:21px;
+	padding:11px;
 	width:50%;
 	font-family: 'Press Start 2P', cursive;
-	margin-left:25%;
-	font-size:20px;
-	text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px green, 0 0 30px green,    
-    0 0 40px green, 0 0 55px green, 0 0 70px green;
+	font-size:27px;
+	margin-left:7px;
 }
 
 .zero {
 	background: rgba(21, 47, 47, 0.8);
 	text-align: center;  
-	height:170px;
+	height:210px;
+	border-radius:5px;
 	line-height: 25px;
 	font-size:20px;
 	font-family: 'Teko', sans-serif;
@@ -41,10 +47,9 @@ body {
 }
 
 .zero a {
-	color:rgb(58, 51, 51);
-	background:chartreuse;
+	color:chartreuse;
 	width:40px;
-  letter-spacing: 2px;
+  	letter-spacing: 2px;
 	line-height: 20px;
 }
 
@@ -78,11 +83,11 @@ body {
 	min-width:320px;
 	max-height:250px;
 	min-height:330px;
-  box-shadow: 12px 12px 27px 12px rgba(0, 0,0, 0.56);    
-  padding: 46px;        
-  border-radius: 5px;        
-  margin-top: 100px;        
-  margin-left:55px;  
+  	box-shadow: 12px 12px 27px 12px rgba(0, 0,0, 0.56);    
+  	padding: 46px;        
+  	border-radius: 5px;        
+  	margin-top: 100px;        
+  	margin-left:55px;  
 	background:url("../images/cod1.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;                                          
@@ -101,11 +106,11 @@ body {
 	max-height:250px;
 	min-height:330px;
 	box-shadow: 12px 12px 27px 12px rgba(0, 0,0, 0.56);        
-  padding: 46px;            
-  border-radius: 5px;      
-  margin-top: 100px;            
-  margin-left:55px;            
-  background:url("../images/cyper.jpg");
+  	padding: 46px;            
+  	border-radius: 5px;      
+  	margin-top: 100px;            
+  	margin-left:55px;            
+  	background:url("../images/cyper.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;         
 }
@@ -190,4 +195,5 @@ body {
 	grid-template-rows: repeat(8);
 	grid-gap: 10px;
 	font-family: 'Teko', sans-serif;
+	margin-top:41px;
 } 
