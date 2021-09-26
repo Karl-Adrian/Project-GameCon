@@ -129,22 +129,21 @@ body {
 }
 
 /*--RESPONSIVE RULES---*/
-@media screen and (max-width: 1250px){
-.grid{
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-column-gap: 5rem;
-}
+@media screen and (max-width: 1250px) {
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 5rem;
+  }
 }
 
-@media screen and (max-width: 900px){
-  .grid{
+@media screen and (max-width: 900px) {
+  .grid {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-column-gap: 5rem;
   }
-  }
-  
+}
 
 /*------CARD 2----*/
 
@@ -406,7 +405,7 @@ body {
 }
 .button {
   padding: 10px;
-  width: 30%;
+  width: 15%;
   font-family: "Oswald", sans-serif;
   font-weight: bold;
   background-color: cyan;
@@ -415,7 +414,7 @@ body {
 
 /*SIDEBAR NAV*/
 .sidenav {
-  height: 100%;
+  height: 15%;
   width: 0;
   position: fixed;
   z-index: 1;
