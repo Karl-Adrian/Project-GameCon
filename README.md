@@ -16,7 +16,7 @@ JS- To make the sidebar menu
 
 ## Support and contact details
 
-In case of any issue, contact the scrum master on twitter @karlpancakes
+In case of any issue, contact the scrum master on twitter @karl_mutunga
 
 ### License
 
